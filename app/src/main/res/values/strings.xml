@@ -1,0 +1,35 @@
+<resources>
+    <string name="name">DoAnCuoiKi_18110361</string>
+    <string name="app_name">Mini Stuck</string>
+    <string name="login">LOGIN</string>
+    <string name="forgot_password">FORGOT PASSWORD ?</string>
+    <string name="new_user_register_now">Do you have an account ? Register now !</string>
+    <string name="register">REGISTER</string>
+    <string name="admin">Administrator</string>
+    <string name="user">User</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="signin">Login</string>
+    <string name="logintitle">Admin Login Screen</string>
+    <string name="addproduct">Add Products</string>
+    <string name="addcoupon">Add Coupon</string>
+    <string name="pname">Product Name</string>
+    <string name="price">Price</string>
+    <string name="listproducts">List Products</string>
+    <string name="listcoupons">List Coupons</string>
+    <string name="updateprice">Update Price</string>
+    <string name="deletecoupons">Delete Coupons</string>
+    <string name="logout">Logout</string>
+    <string name="addproductscreen">Add Products Screen</string>
+    <string name="submit">Submit</string>
+    <string name="addcouponscreen">Add Coupon Screen</string>
+    <string name="coupon">Coupon</string>
+    <string name="plist">Product List</string>
+    <string name="discount">Discount</string>
+    <string name="listingupdateprice">Listing And Update Price</string>
+    <string name="start">Start Shopping Screen</string>
+    <string name="budget">Budget Amount</string>
+    <string name="reset">Database Reset</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/category_card"
+    android:layout_width="match_parent"
+    android:layout_height="230dp"
+    android:layout_marginBottom="1dp"
+    android:background="#ffffff"
+    android:orientation="vertical">
+
+
+    <RelativeLayout
+        android:id="@+id/ll_product"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:padding="5dp">
+
+        <ImageView
+            android:id="@+id/categoryList_img"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/watermark_icon" />
+        <TextView
+            android:id="@+id/category_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="gone" />
+        <TextView
+            android:id="@+id/categoryList_name"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignLeft="@id/categoryList_img"
+            android:layout_alignTop="@id/categoryList_img"
+            android:layout_alignRight="@id/categoryList_img"
+            android:layout_alignBottom="@id/categoryList_img"
+            android:ellipsize="marquee"
+            android:focusable="false"
+            android:freezesText="true"
+            android:gravity="center"
+            android:alpha="0.8"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:scrollHorizontally="true"
+            android:singleLine="true"
+            android:background="@color/color_black_light"
+            android:text="Category Name"
+            android:textColor="@color/md_white_1000"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+</LinearLayout>
