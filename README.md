@@ -1,2 +1,2 @@
 # MobilePrograming-MiniStuck
-This is final project in mobile programing subject in  2021
+This is final project in mobile programming subject in  2021
